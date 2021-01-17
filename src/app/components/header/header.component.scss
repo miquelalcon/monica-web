@@ -1,0 +1,19 @@
+@use "../../../assets/variables";
+
+header {
+    position: fixed;
+    width: 100%;
+    height: variables.$headerHeight;
+
+    .name {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        width: variables.$headerHeight;
+        height: 100%;
+        font-size: 0.9em;
+        text-align: center;
+        border: solid;
+        border-width: 0 variables.$borderWidth 0 0;
+    }
+}

@@ -1,0 +1,10 @@
+@use "../../../assets/variables";
+
+nav {
+    position: fixed;
+    top: variables.$headerHeight;
+    width: 100%;
+    height: 20vh;
+    border: solid;
+    border-width: variables.$borderWidth 0 variables.$borderWidth 0;
+}
